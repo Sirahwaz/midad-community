@@ -37,7 +37,7 @@ server {
         try_files $uri $uri/ =404;
     }
 
-    location ~ /\\. {
+    location ~ /\. {
         deny all;
     }
 }
